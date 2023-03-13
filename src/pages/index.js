@@ -2,13 +2,11 @@ import Head from "next/head";
 import { Inter } from "next/font/google";
 
 import { useAccount, ConnectButton } from "@web3modal/react";
-import styles from "@/styles/Home.module.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   const { account, isConnected } = useAccount();
-  console.log("🚀 ~ file: index.js:10 ~ Home ~ account:", account);
 
   return (
     <>

@@ -1,5 +1,3 @@
-import "@/styles/globals.css";
-
 import { Web3Modal } from "@web3modal/react";
 import { providers, w3mProvider, w3mConnectors, EthereumClient } from "@web3modal/ethereum";
 import { configureChains, createClient, WagmiConfig } from "wagmi";
